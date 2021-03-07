@@ -14,11 +14,41 @@ The provided dataset have the 12 different stock information listed in two separ
 
 
 
-***Time on VBA_Challenge_2017.PNG***
++ With the refactoring of nested `for` loops into one by usint `tickerIndex` variables, the execution times for each code were "0.1875" and "0.1796875" respective to the year 2017 and the year 2018 data.
+   ***Time on VBA_Challenge_2017.PNG***
 
 
 
-***Time on VBA_Challenge_2018.PNG***
+   ***Time on VBA_Challenge_2018.PNG***
+
+   Compared to the original scripts attached below, the execution times were shorten by almost 1second.
+
+
+   ***Time on VBA_Challenge_2017withoutRefactor.PNG***
+
+
+ 
+   ***Time on VBA_Challenge_2018withoutRefactor.PNG***
+
+
+
++ Next, the below two screenshots present that the described codes can simply run by anyone by clicking the module button "Analysis Refactored" and clear the worksheet with "Clear Sheet" button
+   ***Table of VBA_Challenge_2017Worksheet.PNG***
+
+   ***Table of VBA_Challenge_2018Worksheet.PNG***
+
+
++ Now, let us analyze the tables output from the written codes to determine which stocks performed well in the year of 2017 and the year of 2018.
+
+   ***Table of VBA_Challenge_2017Table.PNG***
+   + Revewing the performances of 12 stocks from the year 2017, we can compare how well each stock performed through  **Return (%).** 
+     With a first glance, we can tell that the stock "TERP" is not profittable as the return percentage is negative value (-7.2%). On the otherhand, all the rest of 11 stocks are outputting the positive return in this year. Could this be that all other 11 stocks are well performing stocks to invest? 
+In order to further track the performance of the stocks, let us review the result from the year of 2018.
+
+   ***Table of VBA_Challenge_2018Table.PNG***
+   + From the year 2018 table, we see a drastic change in the stocks' return percentage compared to that from the year 2017. Among the 12 stocks, only **"ENPH"** and **"RUN"** were the stocks with positive return percentage. 
+     Tracing back to the year 2017 result again, "ENPH" was also the top three in terms of return percentage, 129.5%, while "RUN" was 5.5%. Given both stocks' return percentages are now above 80%, we can estimate that these two stocks are better choices to invest compared to other 10 stocks.
+
 
 
 
