@@ -187,10 +187,10 @@ In order to further track the performance of the stocks, let us review the resul
 ## Summary
 ### Pros and Cons of Refactoring Code
 
-
+Pros of refactoring code is to brush up your code to be better organized. Thus refactored code will look better if you handover the written code to other person or you revisit the code later. Also, the more organized a code refactored, it would be easier to make any modification of code, and or add more variables to analyze.
+The cons of refactoring code is that we face some risk of making new bugs through the process.
 
 ### The Advantages of Refactoring Stock Analysis
-
 
 Reviewing the exectution times of each macro with and without refactoring, the biggest advantage is shortening of execution time. As mentioned already in the Analysis section, the refactored codes took almost 1second shorter execution time compared to the time for original code with two `for` loops running. Attaching the results from both the original code and the code with reactoring as comparison again.
 
